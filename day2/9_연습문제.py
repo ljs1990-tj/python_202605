@@ -85,15 +85,15 @@
 # 아이디와 비밀번호를 각각 입력받아, 딕셔너리의 정보와 일치하면 "환영합니다!",
 # 틀리면 "아이디 또는 비밀번호가 잘못되었습니다"를 출력하세요.
 
-members = {"admin": "1234", "user01": "pass"}
+# members = {"admin": "1234", "user01": "pass"}
 
-id = input("아이디 입력 : ")
-pwd = input("비밀번호 입력 : ")
+# id = input("아이디 입력 : ")
+# pwd = input("비밀번호 입력 : ")
 
-if id in members :
-    if members[id] == pwd :
-        print("환영합니다!")
-    else :
-        print("비밀번호를 확인해주세요.")
-else :
-    print("아이디를 확인해주세요.")
+# if id in members :
+#     if members[id] == pwd :
+#         print("환영합니다!")
+#     else :
+#         print("비밀번호를 확인해주세요.")
+# else :
+#     print("아이디를 확인해주세요.")
